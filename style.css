@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
+/* First section start */
+#first-section{
+    background: aqua;
+    height: 600px;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+.side-by-side{
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.left-side h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    letter-spacing: 5px;
+    margin: 80px 0;
+}
+
+.left-side h2 span{
+    color: blue;
+}
+
+.left-side p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 30px 0;
+    color: rgb(122, 120, 126);
+}
+
+
+.button-style{ 
+   margin: 60px 0;
+}
+
+.button-style a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red , yellow);
+}
+
+/* .right-side{
+    
+} */
+
+.right-side img{
+    max-width: 600px;
+}
+/* first section End  */
+
+/* section section Start  */
+#second-section{
+    background: rgba(46, 44, 46, 0.664) url(https://images.unsplash.com/photo-1559417004-3f15daa4fd37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80) ;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+.about-pic img{
+    width: 400px;
+    margin: 150px 0;
+}
+
+.about-text{
+    color: #fff;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+.about-text{
+    margin-top: 15px;
+}
+/* section section end  */
+
+/* Third section start  */
+#third-section .content .title{
+    margin: 62px auto;
+    width: 706px;
+    text-align: center;
+    line-height: 32px;
+}
+.card{
+    width: 377px;
+    height: 528px;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card .image-area img{
+    width: 336px;
+    height: 256px;
+    border-radius: 10px;
+}
+
+.card .text-area h4{
+    font-size: 28px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.card .text-area p{
+    font-size: 18;
+    font-weight: 400;
+    font-style: normal;
+    color: #18191F;
+    line-height: 32px;
+}
+
+.count-section{
+    width: 100%;
+    padding: 64px 165px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    margin: 110px 0;
+}
+/* Third section end  */
+
+
+/* Footer Section Start  */
+#footer-section{
+    background-color: #0B0D17;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer-section .content h4{
+    font-size: 30px;
+    font-family: 800;
+    line-height: 32px;
+    margin: 15px 0;
+}
+
+#footer-section .content h4 span{
+    color: blue;
+}
+
+
+/* Footer Section End  */
